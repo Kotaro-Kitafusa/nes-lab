@@ -18,9 +18,9 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     // resetcssの読み込み
-    { src: '~/assets/sass/reset.scss', lang: 'scss' },
+    { src: '~/assets/css/reset.scss', lang: 'scss' },
     // Fontの読み込み
-    { src: '~/assets/sass/font.scss', lang: 'scss' },
+    { src: '~/assets/css/font.scss', lang: 'scss' },
     // nes.cssの読み込み
     { src: './node_modules/nes.css/css/nes.min.css', lang:'scss' },
     // style.cssの読み込み
