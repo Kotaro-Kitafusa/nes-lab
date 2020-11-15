@@ -1,19 +1,17 @@
 <template lang="pug">
-  div
-    header
-      .title
-        h1 NES-lab
-      .menu
-        ul
-         li
-          a(href="#") about
-         li
-          a(href="#") chat
-
-    nuxt.content-area
-
-    footer
-      h1 Video Title
+div
+  header
+    .title
+      h2 NES-lab
+    .menu
+      ul
+        li
+        a(href="#") about
+        li
+        a(href="#") chat
+  nuxt.contentArea
+  //- footer
+  //-   h1 Video Title
 
 </template>
 
