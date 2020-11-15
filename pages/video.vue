@@ -1,11 +1,11 @@
 <template lang="pug">
-  .video-window
-    p Video Area
+  video.video-window(src="../assets/videos/zelda.mp4" autoplay loop playline muted)
 </template>
 
 <style lang="scss" scoped>
   .video-window {
-    height: 30%;
+    height: 50%;
+    width: 100%;
   }
 </style>
 

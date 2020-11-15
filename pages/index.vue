@@ -24,5 +24,9 @@ export default {
     display: flex;
     flex-direction: column;
     height: 80%;
+
+    .nes-container {
+      margin-top: 1rem;
+    }
   }
 </style>
